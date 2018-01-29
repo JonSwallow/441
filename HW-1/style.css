@@ -20,7 +20,7 @@ body {
   /* Container for the bio section not really sure of all of this to
   be honest */
   min-height: 50vh;
-  font-size: 2em;
+  font-size: 20px;
   /* Flex wrap for responsiveness and justified to center*/
   dislay: flex;
   flex-wrap: wrap;
@@ -133,10 +133,10 @@ padding: 0;
 
 @media (min-width: 1024 px;) {
   .Antihero .title {
-    font-size: 40px;
+    font-size: 24px;
   }
   .Antihero .nav {
-    font-size: 40px;
+    font-size: 24px;
   }
 
 }
