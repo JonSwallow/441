@@ -83,6 +83,7 @@ text-shadow: 3px 3px rgb(0,0,0);
   margin-right: 0em;
   padding: 0em;
   text-align: center;
+  line-height: 20px;
 
 }
 
@@ -153,8 +154,8 @@ padding: 0;
 .menu {
   /* Snuck that picture in learned that trick last semester
   with texturing of containers. Declaring the hieght, width, and
-  font specifications */
-  background: url("images/DSC_0313.png");
+  font specifications. Resized the picture to reduce load time */
+  background: url("images/DSC_0313a.png");
   min-height: 100vh;
   height: 100%;
     background-size: cover;
