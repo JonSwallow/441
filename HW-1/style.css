@@ -95,7 +95,6 @@ letter-spacing: normal;
 
 .title h2 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 20px;
   font-weight: lighter;
   letter-spacing: normal;
   text-shadow: 3px 3px rgb(0,0,0);
@@ -105,7 +104,6 @@ letter-spacing: normal;
   the correct display of the link items */
   font-family: 'Supermercado One', cursive;
   font-weight: bold;
-  font-size: 20px;
   color: rgb(200,200,240);
   display: inline-flex;
   text-shadow: 3px 3px rgb(0,0,0);
@@ -120,7 +118,6 @@ letter-spacing: normal;
 .Antihero .navItem {
 /* Aligning the texts, again no padding to interfer
 with responsiveness */
-font-size: 20px;
 text-align: center;
 margin: 0;
 padding: 0;
