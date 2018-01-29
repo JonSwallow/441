@@ -1,0 +1,207 @@
+/* Establishing the guidlines for the body section */
+body {
+  padding: 0;
+  margin: 0;
+  /* Background image set to span the screen and be static*/
+  background-image: url("images/texture6.jpg");
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* Declaring a font */
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  /* I went back and added these shadows for effect*/
+  text-shadow: 3px 3px rgb(0,0,0);
+
+}
+.inf-container {
+  /* Container for the bio section not really sure of all of this to
+  be honest */
+  min-height: 50vh;
+  font-size: 2em;
+  /* Flex wrap for responsiveness and justified to center*/
+  dislay: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.inf {
+  margin: 25vh auto;
+  padding: 0;
+  text-align: center;
+  /* Bought the width down a bit for asthetics */
+  width: 80%;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(200,200,250);
+    font-size: 20px;
+    font-weight: normal;
+
+
+}
+.inf h1 {
+/* Declaring font for h1 items */
+font-family: 'Supermercado One', cursive;
+color: rgb(200,200,250);
+text-shadow: 3px 3px rgb(0,0,0);
+}
+
+.inf h2 {
+/* Declaring font for h2 items*/
+font-family: 'Supermercado One', cursive;
+color: rgb(200,200,250);
+text-shadow: 3px 3px rgb(0,0,0);
+}
+/*Declaring font size at min of 770px width */
+@media (min width: 770px){
+.inf-container {
+font-size:1.5em;
+ }
+}
+.Antihero {
+  /* One hundred percent of veiw port hieght */
+  height: 100vh;
+  min-height: 740px;
+  /* I am no hero nor do I wish to be and
+  I posses a really twisted sense of humor */
+  background-image: url("images/AntiHero.jpg");
+  /* Positions the image in the center calls
+  for no repeating of image, asks the image to cover
+  the viewing area */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.Antihero .title {
+  /* Setting the title parameters font color, size
+  and position*/
+  font-size: 15pt;
+  color: rgb(200,200,250);
+  float: center;
+  margin-top: 1px;
+  /* I found I did not need all those margins,
+  however I wanted to mark them as 0 in case it broke
+  the code */
+  margin-left:  0em;
+  margin-right: 0em;
+  padding: 0em;
+  text-align: center;
+  line-height: 12pt;
+}
+
+.title h1 {
+font-family: 'Supermercado One', cursive;
+font-style: normal;
+font-weight: bold;
+font-size: 2.5em;
+letter-spacing: normal;
+}
+
+.title h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: normal;
+  text-shadow: 3px 3px rgb(0,0,0);
+}
+.Antihero .nav {
+  /* Defining paramters of font again. The inline flex allows for
+  the correct display of the link items */
+  font-family: 'Supermercado One', cursive;
+  font-weight: bold;
+  color: rgb(200,200,240);
+  display: inline-flex;
+  text-shadow: 3px 3px rgb(0,0,0);
+
+}
+.Antihero .nav a {
+  color: inherit;
+  /* Making sure the underlined link is not present */
+  text-decoration: none;
+  }
+}
+.Antihero .navItem {
+/* Aligning the texts, again no padding to interfer
+with responsiveness */
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+.Antihero .navItem:hover {
+  /* Nice funky pastel color for the hover items */
+  color: rgb(200,240,200);
+}
+
+@media (max-width: 856px) {
+  /* Calls for minimum hieght at the max width of 856px,
+  as well as font size and spacing */
+  .Antihero {
+  min-height: 726px;
+  }
+  .Antihero .title {
+  font-size: 14pts;
+  margin-top: 50px;
+  }
+}
+@media (max-width:426px) {
+  /* I added this to change the format of the link items
+  at a lower device setting for readability */
+  .Antihero .nav {
+    display: inline-block;
+  }
+
+}
+
+
+.menu {
+  /* Snuck that picture in learned that trick last semester
+  with texturing of containers. Declaring the hieght, width, and
+  font specifications */
+  background: url("images/DSC_0313.png");
+  min-height: 100vh;
+  height: 100%;
+    background-size: cover;
+  padding: 0;
+  width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(200,200,250);
+    font-size: 20px;
+    font-weight: lighter.
+  /* Declaring the flex properties for responsiveness*/
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 25vh auto;
+  padding: 0;
+  text-align: center;
+
+
+}
+
+.menu h1 {
+  /**/
+  font-family: 'Supermercado One', cursive;
+  color: rgb(200,200,250);
+  text-shadow: 3px 3px rgb(0,0,0);
+}
+
+.menu p {
+  /* Declaring properties of the paragraph */
+  width: 50%;
+  text-align: center;
+  display: inline-flex;
+  text-shadow: 3px 3px rgb(0,0,0);
+}
+
+@media (max-width:426px) {
+  /*Was trying to fix a glitch ended up being a missing bracket,
+  however since my page is working well I am leaving this in */
+  .menu {
+    height: 100%;
+  }
+
+}
