@@ -53,6 +53,7 @@ color: rgb(200,200,250);
 text-shadow: 3px 3px rgb(0,0,0);
 }
 
+
 .Antihero {
   /* One hundred percent of veiw port hieght */
   height: 100vh;
@@ -72,7 +73,7 @@ text-shadow: 3px 3px rgb(0,0,0);
 .Antihero .title {
   /* Setting the title parameters font color, size
   and position*/
-  font-size: 20pt;
+  font-size: 22px;
   color: rgb(200,200,250);
   float: center;
   /* I found I did not need all those margins,
@@ -87,7 +88,7 @@ text-shadow: 3px 3px rgb(0,0,0);
 
 .title h1 {
 font-family: 'Supermercado One', cursive;
-
+font-size: 24px;
 font-style: normal;
 font-weight: bold;
 letter-spacing: normal;
@@ -95,7 +96,7 @@ letter-spacing: normal;
 
 .title h2 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1em;
+  font-size: 20px;
   font-weight: lighter;
   letter-spacing: normal;
   text-shadow: 3px 3px rgb(0,0,0);
@@ -105,6 +106,7 @@ letter-spacing: normal;
   the correct display of the link items */
   font-family: 'Supermercado One', cursive;
   font-weight: bold;
+  font-size: 20px;
   color: rgb(200,200,240);
   display: inline-flex;
   text-shadow: 3px 3px rgb(0,0,0);
@@ -119,6 +121,7 @@ letter-spacing: normal;
 .Antihero .navItem {
 /* Aligning the texts, again no padding to interfer
 with responsiveness */
+font-size: 1em;
 text-align: center;
 margin: 0;
 padding: 0;
@@ -130,7 +133,6 @@ padding: 0;
 }
 
 
-
 @media (max-width:426px) {
   /* I added this to change the format of the link items
   at a lower device setting for readability */
@@ -139,6 +141,7 @@ padding: 0;
   }
 
 }
+
 
 
 .menu {
@@ -181,11 +184,11 @@ padding: 0;
   text-shadow: 3px 3px rgb(0,0,0);
 }
 
-@media (max-width:426px) {
+@media (max-width: 850px) {
   /*Was trying to fix a glitch ended up being a missing bracket,
   however since my page is working well I am leaving this in */
   .menu {
-    height: 100%;
+    font-size: 15px
   }
 
 }
