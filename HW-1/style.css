@@ -73,7 +73,7 @@ text-shadow: 3px 3px rgb(0,0,0);
 .Antihero .title {
   /* Setting the title parameters font color, size
   and position*/
-  font-size: 15pt;
+  font-size: 20pt;
   color: rgb(200,200,250);
   float: center;
   margin-top: 1px;
@@ -84,7 +84,7 @@ text-shadow: 3px 3px rgb(0,0,0);
   margin-right: 0em;
   padding: 0em;
   text-align: center;
-  line-height: 12pt;
+
 }
 
 .title h1 {
