@@ -20,7 +20,7 @@ body {
   /* Container for the bio section not really sure of all of this to
   be honest */
   min-height: 50vh;
-  font-size: 24px;
+  font-size: 20px;
   /* Flex wrap for responsiveness and justified to center*/
   dislay: flex;
   flex-wrap: wrap;
@@ -88,7 +88,7 @@ text-shadow: 3px 3px rgb(0,0,0);
 
 .title h1 {
 font-family: 'Supermercado One', cursive;
-font-size: 22px;
+font-size: 20px;
 font-style: normal;
 font-weight: bold;
 letter-spacing: normal;
@@ -96,7 +96,7 @@ letter-spacing: normal;
 
 .title h2 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: lighter;
   letter-spacing: normal;
   text-shadow: 3px 3px rgb(0,0,0);
