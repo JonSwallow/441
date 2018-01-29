@@ -19,7 +19,7 @@ body {
 .inf-container {
   /* Container for the bio section not really sure of all of this to
   be honest */
-  min-height: 50vh;
+  min-height: 100vh;
   font-size: 20px;
   /* Flex wrap for responsiveness and justified to center*/
   dislay: flex;
@@ -182,13 +182,4 @@ padding: 0;
   text-align: center;
   display: inline-flex;
   text-shadow: 3px 3px rgb(0,0,0);
-}
-
-@media (max-width: 850px) {
-  /*Was trying to fix a glitch ended up being a missing bracket,
-  however since my page is working well I am leaving this in */
-  .menu {
-    font-size: 15px
-  }
-
 }
