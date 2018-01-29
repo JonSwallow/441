@@ -32,7 +32,7 @@ body {
   padding: 0;
   text-align: center;
   /* Bought the width down a bit for asthetics */
-  width:60%;
+  width:50%;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(200,200,250);
     font-weight: normal;
@@ -73,7 +73,7 @@ text-shadow: 3px 3px rgb(0,0,0);
 .Antihero .title {
   /* Setting the title parameters font color, size
   and position*/
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(200,200,250);
   float: center;
   /* I found I did not need all those margins,
@@ -96,7 +96,7 @@ letter-spacing: normal;
 
 .title h2 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: lighter;
   letter-spacing: normal;
   text-shadow: 3px 3px rgb(0,0,0);
