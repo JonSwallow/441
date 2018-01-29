@@ -52,7 +52,18 @@ font-family: 'Supermercado One', cursive;
 color: rgb(200,200,250);
 text-shadow: 3px 3px rgb(0,0,0);
 }
+/* Using media query to reduce the text size at the smart phone level */
+@media all and (max-width: 768px){
+  .inf-container  {
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 320px) {
+  .inf-container {
+    font-size: 10px;
+  }
 
+}
 
 .Antihero {
   /* One hundred percent of veiw port hieght */
@@ -189,4 +200,17 @@ padding: 0;
   text-align: center;
   display: inline-flex;
   text-shadow: 3px 3px rgb(0,0,0);
+}
+
+/* Using media query to reduce the size of the text at the smart phone level*/
+@media all and (max-width: 768px){
+  .menu {
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 320px) {
+  .menu {
+    font-size: 10px;
+  }
+
 }
