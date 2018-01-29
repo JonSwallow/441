@@ -88,7 +88,7 @@ text-shadow: 3px 3px rgb(0,0,0);
 
 .title h1 {
 font-family: 'Supermercado One', cursive;
-font-size: 40px;
+
 font-style: normal;
 font-weight: bold;
 letter-spacing: normal;
@@ -130,15 +130,7 @@ padding: 0;
   color: rgb(200,240,200);
 }
 
-@media (min-width: 1024 px;) {
-  .Antihero .title {
-    font-size: 60px;
-  }
-  .Antihero .nav {
-    font-size: 55px;
-  }
 
-}
 
 @media (max-width:426px) {
   /* I added this to change the format of the link items
