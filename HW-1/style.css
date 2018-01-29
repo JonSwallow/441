@@ -32,7 +32,7 @@ body {
   padding: 0;
   text-align: center;
   /* Bought the width down a bit for asthetics */
-  width: 80%;
+  width:60%;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(200,200,250);
     font-size: 20px;
@@ -76,7 +76,6 @@ text-shadow: 3px 3px rgb(0,0,0);
   font-size: 20pt;
   color: rgb(200,200,250);
   float: center;
-  margin-top: 1px;
   /* I found I did not need all those margins,
   however I wanted to mark them as 0 in case it broke
   the code */
@@ -89,9 +88,9 @@ text-shadow: 3px 3px rgb(0,0,0);
 
 .title h1 {
 font-family: 'Supermercado One', cursive;
+font-size: 40px;
 font-style: normal;
 font-weight: bold;
-font-size: 20px;
 letter-spacing: normal;
 }
 
@@ -133,10 +132,10 @@ padding: 0;
 
 @media (min-width: 1024 px;) {
   .Antihero .title {
-    font-size: 35px;
+    font-size: 60px;
   }
   .Antihero .nav {
-    font-size: 35px;
+    font-size: 55px;
   }
 
 }
@@ -160,7 +159,7 @@ padding: 0;
   height: 100%;
     background-size: cover;
   padding: 0;
-  width: 100%;
+  width: 80%;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(200,200,250);
     font-size: 20px;
