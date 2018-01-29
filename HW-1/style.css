@@ -73,7 +73,7 @@ text-shadow: 3px 3px rgb(0,0,0);
 .Antihero .title {
   /* Setting the title parameters font color, size
   and position*/
-  font-size: 24px;
+  font-size: 20px;
   color: rgb(200,200,250);
   float: center;
   /* I found I did not need all those margins,
@@ -88,7 +88,7 @@ text-shadow: 3px 3px rgb(0,0,0);
 
 .title h1 {
 font-family: 'Supermercado One', cursive;
-font-size: 28px;
+font-size: 22px;
 font-style: normal;
 font-weight: bold;
 letter-spacing: normal;
@@ -96,7 +96,7 @@ letter-spacing: normal;
 
 .title h2 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: lighter;
   letter-spacing: normal;
   text-shadow: 3px 3px rgb(0,0,0);
@@ -106,7 +106,7 @@ letter-spacing: normal;
   the correct display of the link items */
   font-family: 'Supermercado One', cursive;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(200,200,240);
   display: inline-flex;
   text-shadow: 3px 3px rgb(0,0,0);
@@ -132,7 +132,17 @@ padding: 0;
   color: rgb(200,240,200);
 }
 
+@media all and (max-width: 768px){
+  .Antihero .title {
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 320px) {
+  .Antihero .title {
+    font-size: 10px;
+  }
 
+}
 @media (max-width:426px) {
   /* I added this to change the format of the link items
   at a lower device setting for readability */
