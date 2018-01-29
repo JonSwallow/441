@@ -56,7 +56,7 @@ text-shadow: 3px 3px rgb(0,0,0);
 /*Declaring font size at min of 770px width */
 @media (min width: 770px){
 .inf-container {
-font-size:1.5em;
+font-size: 22 px;
  }
 }
 .Antihero {
@@ -143,10 +143,11 @@ padding: 0;
   min-height: 726px;
   }
   .Antihero .title {
-  font-size: 14pts;
+  font-size: 18pts;
   margin-top: 50px;
   }
 }
+
 @media (max-width:426px) {
   /* I added this to change the format of the link items
   at a lower device setting for readability */
