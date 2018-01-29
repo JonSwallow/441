@@ -19,8 +19,8 @@ body {
 .inf-container {
   /* Container for the bio section not really sure of all of this to
   be honest */
-  min-height: 100vh;
-  font-size: 20px;
+  min-height: 50vh;
+  font-size: 24px;
   /* Flex wrap for responsiveness and justified to center*/
   dislay: flex;
   flex-wrap: wrap;
@@ -73,7 +73,7 @@ text-shadow: 3px 3px rgb(0,0,0);
 .Antihero .title {
   /* Setting the title parameters font color, size
   and position*/
-  font-size: 20px;
+  font-size: 24px;
   color: rgb(200,200,250);
   float: center;
   /* I found I did not need all those margins,
@@ -88,7 +88,7 @@ text-shadow: 3px 3px rgb(0,0,0);
 
 .title h1 {
 font-family: 'Supermercado One', cursive;
-font-size: 24px;
+font-size: 28px;
 font-style: normal;
 font-weight: bold;
 letter-spacing: normal;
@@ -96,7 +96,7 @@ letter-spacing: normal;
 
 .title h2 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: lighter;
   letter-spacing: normal;
   text-shadow: 3px 3px rgb(0,0,0);
@@ -106,7 +106,7 @@ letter-spacing: normal;
   the correct display of the link items */
   font-family: 'Supermercado One', cursive;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
   color: rgb(200,200,240);
   display: inline-flex;
   text-shadow: 3px 3px rgb(0,0,0);
@@ -121,7 +121,7 @@ letter-spacing: normal;
 .Antihero .navItem {
 /* Aligning the texts, again no padding to interfer
 with responsiveness */
-font-size: 1em;
+font-size: 20px;
 text-align: center;
 margin: 0;
 padding: 0;
