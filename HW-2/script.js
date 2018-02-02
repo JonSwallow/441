@@ -1,3 +1,4 @@
+/*document.write statements, placing text into HTML document via javascript linking*/
 
-
-document.write("<center><h1>Hello World!</h1><p>This is where my content will goat the end of this i will know")</p>
+document.write("<h1><center>What I think about coding</h1>")
+document.write("<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coding can certainly be difficult and rewarding at the same time. The fact that a person can test their code is a virtual life saver. Resources, such as development tools within the browser are an indespensible way of testing one's code. The more time that I spend actually coding, the more proficient I become at coding. Like anything worthwhile, it takes practice. After all coding is a language; you would not expect to learn latin, french, or spanish overnight. The same patience should be given to coding languages. In addition there is a certain amount of technical savy that is required to coding. Code is run on machines, therefore the machine must be operating properly to run the aforementioned code. It is safe to assume if your browser is outdated for example, perhaps your code will not display properly within that browser. In conclusion; learning to code is fun!!!</p>")
