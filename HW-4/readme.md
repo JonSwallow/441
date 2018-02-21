@@ -31,7 +31,7 @@ loop(1, n =>n<=10, n=>n+3, console.log);
 ```
 
 ### Results
-![HW4screenshot](images/FordPrefecure.png)
+![HW4screenshot](images/FordPrefecture.png)
 ### Problems
 Too many to name
 ### Community Spirit

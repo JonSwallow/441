@@ -29,7 +29,7 @@ var line = "#";
 ```
 
 ### Results
-![HW2screenshot](images/H3screen.png)
+![HW3screenshot](images/H3screen.png)
 ### Problems
 I found the hints somewhat helpful but not as helpful as they could have been
 ### Community Spirit
