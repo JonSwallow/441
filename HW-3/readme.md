@@ -2,7 +2,7 @@
 
 [Hw-3.js File](https://github.com/JonSwallow/441-work/tree/master/HW-3/HW-3.js)
 
-## Homework 2
+## Homework 3
 ### Technical Report
 ## Overview
 Although I took the creative coding course I found this to be a great deal of information this week.
