@@ -158,11 +158,11 @@ console.log( sum(range(1, 10)) );
 // When defining the function, you may use a regular loop to do the actual looping.
 
 // Your code here.
-var loop = function (n) {
-  if (n => n, n >0 ) {
-  console.log(n);
-  return loop(n- 1);
-   }
+var loop = function(num, test, update, body ){
+	if(test(num)){
+	     body(num);
+	     loop(update(num), test, update, body);
+    }
 };
 
 
@@ -172,12 +172,6 @@ loop(3, n => n > 0, n => n - 1, console.log);
 // → 2
 // → 1
 
-var loop = function (n) {
-  if (n => n, n<= 10 ) {
-  console.log(n);
-  return loop(n + 3);
-   }
-};
 
 loop(1, n => n <= 10, n => n + 3, console.log);
 // → 1
