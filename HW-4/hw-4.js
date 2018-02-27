@@ -168,6 +168,8 @@ var loop = function(num, test, update, body ){
 
 // Function Calls - DO NOT ALTER
 loop(3, n => n > 0, n => n - 1, console.log);
+// I understand now that I can push any condition within the function call so if I were to input
+// loop (5, n => n <= 6, n => n +33, console.log );  It would work as well unless I entered a condition that was false and then it would return undefined. 
 // → 3
 // → 2
 // → 1
