@@ -1,8 +1,8 @@
 # Homework 7
 
-[Live Site](https://jonswallow.github.io/HW-7)
+[Live Site](https://jonswallow.github.io/441-work/HW-7)
 
-[Repository](https://github.com/JonSwallow/HW-7)
+[Repository](https://github.com/JonSwallow/441-work/tree/master/HW-7)
 
 ## Overview
 
