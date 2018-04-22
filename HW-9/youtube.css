@@ -1,0 +1,129 @@
+/*Importing the font I want*/
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Roboto');
+
+/*attaching a background image I created in GIMP with transparancy, and defining the font */
+body {
+ background: url(images/cubism.png),radial-gradient(white, gray, black);
+ font-family: 'Roboto', sans-serif;
+ }
+/*Positioning the logo so it moves with the video frames*/ 
+/*Logo created by Youtube */
+.youTube{
+position: relative;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.controls, .results {
+  flex: 1;
+  padding: 10px;
+}
+
+form p:nth-of-type(1) {
+  margin-top: 0;
+} 
+/*Dressing up the headline */
+h1 {
+  font-family: 'Black Han Sans', sans-serif;
+  text-align: center;
+  color:rgb(255,0,0);opacity:0.6;
+  text-shadow: 9px 9px black;
+}
+/*Defining the parameters of the enter text*/
+.enter{
+  font-weight: bold;
+  text-align: right;
+  color:red;
+  text-shadow: 2px 2px black;
+}
+/*Defining the parameters of the submit text*/
+.submit{
+ text-align: center;
+  color:red;
+  text-shadow: 1px 1px black;
+
+}
+/*Defining the parameters of the text*/
+.myStuff{
+text-transform:capitalize;
+ text-align: left;
+  color:red;
+  text-shadow: 2px 2px black;
+}
+/*Defining parameters and transforming the text*/
+.creditAuthor{
+ text-transform: uppercase;
+ font-weight: bold;
+  text-align: center;
+  color:red;
+  text-shadow: 2px 2px black;
+}
+
+
+*h2 {
+  font-size: 20px;
+}
+
+article p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+article p:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 2;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+article {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+}
+
+img {
+  float: center;
+  margin-left: 20px;
+  max-width: 200px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+span {
+  background-color: #ccc;
+  padding: 5px;
+  margin: 5px;
+} 
+/*Defining the parameters of the aside division for aesthetics*/
+aside {
+
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:40 px;
+  margin-left: 0px;
+  margin-right: 1em;
+  min-width: auto;
+  max-width: auto;
+  min-height: auto;
+  max-height: auto;
+}
