@@ -1,4 +1,4 @@
-# Homework 7
+# Homework 9
 
 [Live Site](https://jonswallow.github.io/441-work/HW-9)
 
@@ -64,4 +64,4 @@ Chelsea has the Discord room so it is in good hands. I still pop in and try and 
 I haven't seen anything on the forum for a long time.
 
 ### Conclusions
-I sure the hell hope I did this assignment correctly if I did not I just do not know. So I credited the source code author as well. I understood it to be an expansion of existing code. I also recall the previous statement about ammending code with jQuery or JSON, I chose to use jQuery to ammend the code. 
+I sure the hell hope I did this assignment correctly if I did not I just do not know. So I credited the source code author as well. I understood it to be an expansion of existing code. I also recall the previous statement about ammending code with jQuery or JSON, I chose to use jQuery to ammend the code.
