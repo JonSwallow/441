@@ -1,0 +1,328 @@
+/* Declaring the style of the body section */
+body {
+    background: url(../images/clothify.png) rgb(20, 20, 20);
+    font-family:  'Gugi', cursive;
+	font-size: 18px;
+	text-shadow: 1px 1px #468af0;
+}
+/* Declaring style of the h1 section */
+h1 {
+  font-family: 'Noto Serif', serif;
+  line-height: 1.5 em;
+  font-weight: 100;
+  margin-bottom: 1em;
+  text-align: center;
+  color: #468af0;
+  text-transform: capitalize;
+  text-shadow: 6px 6px #000103;
+  letter-spacing: 0.4em;
+}
+/* Declaring the style of the h2 section*/
+h2 {
+  font-family: 'Noto Serif', serif;
+  font-weight: 150;
+  line-height: 1.5em;
+  text-align: center;
+  color: #468af0;
+  text-shadow: 2px 2px #000103;
+  letter-spacing: 0.4em;
+}
+
+
+/* Dividing pages into blocks for stylizing */
+header {
+    background-color: rgba(127,126,115, .80);
+
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0;
+    color:#468af0;
+    max-height: 100px;
+    text-align: center;
+    border-style: inset;
+    border-color: #468af0;
+    border-width: 2px;
+    border-radius: 0em 0em .5em .5em / 0em 0em .5em .5em;
+}
+/* I made a special class just for this bad boy. I used it to position it within the header
+unfortunately every time I scooted it over a bit the text went as well. I finally went cheap with the spacers
+in the Html. (&nbsp) It sucks but it is what it is. */
+.logo {
+  min-width: 70px;
+  max-width: 70px;
+  min-height: 90px;
+  max-height: 90px;
+  padding-right: 14em;
+  /* Here is that float and clear.*/
+  float: right;
+  clear: both;
+  position: relative;
+}
+/* Since I refused to change the bottom menu for usability I am adding this arrow which links to the footer*/
+.container {
+
+margin-top: -2em;
+  margin-left: 10em;
+   float: left;
+    clear: right;
+    text-align: center;
+   z-index: 1;
+   position: relative;
+}
+.scrollDn {
+font-size: 32pt;
+color:#468af0 ;
+text-shadow: 2px 2px #000103;
+ }
+
+.scrollDn:hover {
+  color:#030303;
+  text-shadow: 2px 2px #468af0;
+}
+
+.scrollTxt {
+padding-top: 1em;
+color: #468af0 ;
+text-shadow: 2px 2px #000103;
+
+}
+
+
+
+
+
+/* Class identity Content stylizing*/
+.content {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+/* Main Block*/
+main {
+    margin: auto;
+    margin-top: 3em;
+    min-height: 400px;
+    max-height: inherit;
+    background : url(../images/cubism_2.png) #fafaff;
+    flex: 1 3 auto;
+    padding: 150px;
+    line-height: 1.4em;
+    color: #030303;
+    float.left: 60em;
+    /* Like my variation of the rounded corners? I do.*/
+    border-radius: 1em 1em 1em 1em / 1em 1em 1em 1em;
+    border-style: ridge;
+    border-color: #468af0;
+    border-width: 5px;
+    text-align: justify;
+
+}
+/* class paragraph-1*/
+.paragraph-1 {
+  text-indent: 1.5em;
+}
+
+.ported {
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+/* class paragraph-2*/
+.paragraph-2 {
+  text-indent: 1.5em;
+}
+/* Sylizing the first letter of paragraph-2*/
+.paragraph-2::first-letter {
+  font-size: 2em;
+}
+
+
+.meetNaomi {
+  text-align: center;
+}
+/* The aside block */
+aside {
+/*Defining the aside block */
+ 
+  flex: 1 1 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: 0px;
+  margin-right: 1em;
+  min-width: auto;
+  max-width: auto;
+  min-height: auto;
+  max-height: auto;
+}
+
+
+
+/* Sylizing the main button */
+.button-1 {
+    font-family:  'Gugi', cursive;
+    font-size: 1em;
+    color: #468af0;
+    font-weight: 400;
+    background-color:#000103 ;
+    border-color: #468af0;
+    border-width: 3px;
+    border-radius: 14px;
+    border-style: ridge;
+    position: relative;
+    margin: auto;
+    top: 0.5em;
+    padding: 0.5em;
+    width: 6em;
+    text-align: center;
+}
+/* Declaring how button will act when hovered over*/
+.button-1:hover {
+    color: #000103;
+    font-style: bold;
+	background-color:#468af0;
+}
+/* Declaring how button will act when active */
+.button-1:active {
+    color:#468af0;
+    background-color: #000103;
+    border-color:  #468af0;
+    border-width: 3px;
+}
+/* Declaring stylizing of link */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*Class emailName for purpose of centering text again*/
+.emailName {
+  text-align: center;
+  color:#468af0;
+   text-shadow: 2px 2px #000103;
+}
+/* Class twutter for color and centering text */
+.twutter {
+  text-align: center;
+  color: #468af0;
+}
+.twutter:hover{
+  color: rgb(178, 0, 0);
+}
+/* Footer block */
+footer {
+
+    background : url(../images/cubism.png) #000103;
+    padding:  20px;
+    border-radius: 20px;
+    border-style: ridge;
+    border-color: #468af0;
+    border-width: 5px;
+    line-height: .75em;
+    color: #468af0;
+    font-family: 'Gugi', cursive;
+    text-transform: uppercase;
+    font-size: 10pt;
+    text-align: center;
+    z-index: 5;
+    position: relative;
+}
+/* Stylizing my menu items */
+.menuItem {
+  margin: 0;
+  padding: 0.3em;
+  width: auto;
+  border-width: thick;
+  border-style: ridge;
+  border-color: #468af0;
+  border-radius: 1em;
+  color: #468af0;
+  background-color: #000103;
+}
+/* Stylizing the hover notice the maroon colorscheme out the window. Se Lo*/
+.menuItem:hover {
+  background-color: #468af0;
+  color: #000103;
+}
+/* I tried every blood combination under the sun until I unwittingly came accross the
+current incarnation of the thing. Leaving this blank was required */
+.dropdown {
+}
+/* Sylizing the content of the dropdown lot of trial and error here*/
+.dropdownContent {
+  display: none;
+  position: absolute;
+  border-width: thick;
+  border-style: ridge;
+  border-color:  #468af0;
+  border-radius: 1em;
+  color:  #FFF5BF;
+  background-color: #000103;
+  min-width: 500px;
+    z-index: 1;
+}
+/* Damn that is the wrong color better change it. Stylizing the font color in the dropdown menu */
+.dropdownContent a {
+    color: #468af0;
+}
+/* Here as well I tried everything and nothing worked but this it is almost a fluke, but I like it.
+Honestly if I would have done a top menu it would have been easier here and I would have
+spread the menu items horizontally across the bar the drop down would be more traditional*/
+.dropdown:hover .dropdownContent {
+display: inline-block;
+position: relative;
+}
+
+/* Stylizing the dropdown items, I know I could have gotten away without the border here */
+.dropdownItem {
+    display: inline-block;
+    margin: 0;
+    padding: 0.3em;
+    border-width: thick;
+    border-style: ridge;
+    border-color:  #468af0;
+    border-radius: 1em;
+    min-width: 500px;
+}
+/* Styliing the hover with color */
+.dropdownItem:hover, .dropdownItem:hover a {
+  background-color: #468af0;
+  color: #000103;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .9} 
+  to {opacity: .5}
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: .5}
+}
