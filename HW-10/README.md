@@ -76,10 +76,10 @@ I had hell with the slideshow at first I slept on it and totally reworked it usi
 
 
 ## Results
-##### Example of issues encountered along the way.
+##### Example of workflow
 ![Screen1](images/result1.png)
 
-##### Successful execution in browser
+##### Another Example of workflow
 ![Screen2](images/result.png)
 
 ### Future work
