@@ -73,7 +73,9 @@ text-shadow: 2px 2px #000103;
 
 ## Problems
 I had hell with the slideshow at first I slept on it and totally reworked it using the W3 site as a reference.
-
+The Caps lock on during naming it is apparently not possible to change the file extension to lower case and expect GitHub to upload, as 
+a result I added a one behind the usual naming convention to fix the break. Live page caps matters in the extension running it from the desktop in the 
+browser it does not something to be careful for. 
 
 ## Results
 ##### Example of workflow
