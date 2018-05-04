@@ -3,7 +3,7 @@ var spheres= [];
 var circles=[];
 // Setup function, with background and frameRate for aesthetics.
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(windowWidth,windowHeight);
     background('black');
     frameRate(25);
   //populating the arrays
