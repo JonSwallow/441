@@ -1,4 +1,4 @@
-/* Declaring the style of the body section */
+/* Declaring the style of the body section portfolio site */
 body {
     background: url(../images/clothify.png) rgb(20, 20, 20);
     font-family:  'Gugi', cursive;
@@ -51,19 +51,19 @@ header {
 unfortunately every time I scooted it over a bit the text went as well. I finally went cheap with the spacers
 in the Html. (&nbsp) It sucks but it is what it is. */
 .logo {
-  min-width: 70px;
-  max-width: 70px;
+  min-width: 90px;
+  max-width: 90px;
   min-height: 90px;
   max-height: 90px;
-  padding-right: 14em;
-  /* Here is that float and clear.*/
-  float: right;
+  padding-right: 2em;
+  padding-top: 1em;
+  float:right;
   clear: both;
   position: relative;
 }
 /* Since I refused to change the bottom menu for usability I am adding this arrow which links to the footer*/
-.container {
 
+.container {
 margin-top: -2em;
   margin-left: 10em;
    float: left;
