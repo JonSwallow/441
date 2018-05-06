@@ -130,6 +130,13 @@ main {
     margin-left: auto;
     margin-right: auto
 }
+
+.centRd {
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
 /* class paragraph-2*/
 .paragraph-2 {
   text-indent: 1.5em;
@@ -145,6 +152,12 @@ text-align: center;
 
 .paragraph-3::first-letter {
 font-size: 2em;
+}
+
+.paragraph-4 {
+text-indent:1.5 em;
+text-align:center;
+font-size: 16px;
 }
 
 .meetNaomi {
