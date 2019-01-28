@@ -1,7 +1,7 @@
 /* Declaring the style of the body section portfolio site */
 body {
     background: url(../images/clothify.png) rgb(20, 20, 20);
-    font-family:  'Gugi', cursive;
+    font-family:  'Ubuntu', sans-serif;
 	font-size: 18px;
 	text-shadow: 1px 1px #468af0;
 }
