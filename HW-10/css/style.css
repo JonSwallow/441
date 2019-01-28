@@ -3,8 +3,8 @@ body {
     background: rgb(20, 20, 20);
     font-family:  'Ubuntu', sans-serif;
 	font-size: 18px;
-	color: #03a2e6;
-	text-shadow: 1px 1px #468af0;
+	color: #03a2e6 ;
+        text-shadow: 2px 2px #000103;
 }
 
 /* Declaring style of the h1 section */
