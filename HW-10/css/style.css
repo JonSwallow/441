@@ -3,6 +3,7 @@ body {
     background: rgb(20, 20, 20);
     font-family:  'Ubuntu', sans-serif;
 	font-size: 18px;
+	color: #03a2e6;
 	text-shadow: 1px 1px #468af0;
 }
 
@@ -185,7 +186,7 @@ aside {
 
 /* Sylizing the main button */
 .button-1 {
-    font-family:  'Gugi', cursive;
+    font-family:  'Ubuntu', sans-serif;
     font-size: 1em;
     color: #468af0;
     font-weight: 400;
