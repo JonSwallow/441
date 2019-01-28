@@ -5,29 +5,29 @@ body {
 	font-size: 18px;
 	text-shadow: 1px 1px #468af0;
 }
+
 /* Declaring style of the h1 section */
 h1 {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5 em;
   font-weight: 100;
   margin-bottom: 1em;
   text-align: center;
-  color: #468af0;
+  color: #ff0000;
   text-transform: capitalize;
   text-shadow: 6px 6px #000103;
   letter-spacing: 0.4em;
 }
 /* Declaring the style of the h2 section*/
 h2 {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 150;
   line-height: 1.5em;
   text-align: center;
-  color: #468af0;
+     color: #ff0000;
   text-shadow: 2px 2px #000103;
   letter-spacing: 0.4em;
 }
-
 
 /* Dividing pages into blocks for stylizing */
 header {
