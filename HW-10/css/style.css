@@ -111,7 +111,8 @@ main {
     flex: 1 3 auto;
     padding: 150px;
     line-height: 1.4em;
-    color: #030303;
+    color:#030303;
+  text-shadow: 2px 2px #468af0;
     float.left: 60em;
     /* Like my variation of the rounded corners? I do.*/
     border-radius: 1em 1em 1em 1em / 1em 1em 1em 1em;
