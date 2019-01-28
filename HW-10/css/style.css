@@ -85,7 +85,7 @@ text-shadow: 2px 2px #000103;
 
 .scrollTxt {
 padding-top: 1em;
-color: #468af0 ;
+color: #03a2e6 ;
 text-shadow: 2px 2px #000103;
 
 }
@@ -222,7 +222,7 @@ a {
 /*Class emailName for purpose of centering text again*/
 .emailName {
   text-align: center;
-  color:#468af0;
+  color:#03a2e6;
    text-shadow: 2px 2px #000103;
 }
 /* Class twutter for color and centering text */
@@ -243,8 +243,8 @@ footer {
     border-color: #468af0;
     border-width: 5px;
     line-height: .75em;
-    color: #468af0;
-    font-family: 'Gugi', cursive;
+    color: #03a2e6;
+    font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     font-size: 10pt;
     text-align: center;
@@ -260,7 +260,7 @@ footer {
   border-style: ridge;
   border-color: #468af0;
   border-radius: 1em;
-  color: #468af0;
+  color: #03a2e6;
   background-color: #000103;
 }
 /* Stylizing the hover notice the maroon colorscheme out the window. Se Lo*/
@@ -278,7 +278,7 @@ current incarnation of the thing. Leaving this blank was required */
   position: absolute;
   border-width: thick;
   border-style: ridge;
-  border-color:  #468af0;
+  border-color:  #03a2e6;
   border-radius: 1em;
   color:  #FFF5BF;
   background-color: #000103;
@@ -287,7 +287,7 @@ current incarnation of the thing. Leaving this blank was required */
 }
 /* Damn that is the wrong color better change it. Stylizing the font color in the dropdown menu */
 .dropdownContent a {
-    color: #468af0;
+    color: #03a2e6;
 }
 /* Here as well I tried everything and nothing worked but this it is almost a fluke, but I like it.
 Honestly if I would have done a top menu it would have been easier here and I would have
